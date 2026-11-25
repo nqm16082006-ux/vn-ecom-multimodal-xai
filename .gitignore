@@ -1,0 +1,50 @@
+# Python & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Large Datasets & Model Checkpoints (do not commit binaries)
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.parquet
+*.jsonl
+*.jpg
+*.jpeg
+*.png
+*.webp
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Logs & OS
+logs/
+mlruns/
+wandb/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+
+# Local Agent Config, Rules, Skills, Plan & Repomix Bundle (khong push len GitHub)
+GEMINI.md
+docs/PLAN.md
+.agents/
+**/SKILL.md
+repomix-output.xml
+

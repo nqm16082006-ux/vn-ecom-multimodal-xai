@@ -1,0 +1,27 @@
+# Repomix Ignore Patterns
+repomix-output.xml
+.git/
+.venv/
+venv/
+__pycache__/
+data/
+checkpoints/
+logs/
+reports/figures/
+frontend/node_modules/
+frontend/dist/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.csv
+*.parquet
+*.jsonl
+*.zip
+*.tar.gz
